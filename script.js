@@ -4,12 +4,12 @@
       console.log(a+b);
 /* 2. გამოაცხადეთ ობიექტი student, ფროფერთებით: firstName, lastName, age, email, marks*/
 
-let student = {
-    "firstName": "cira",
-    "lastName" : "janelidze",
+      let student = {
+         "firstName": "cira",
+         "lastName" : "janelidze",
          "age" : 37,
-        "email": "janelidze.cira@gmail.com",
-        "marks": 10 } ;
+         "email": "janelidze.cira@gmail.com",
+         "marks": 10 } ;
         
  /* 3. დაბეჭდეთ student ის სახელი*/
         console.log(student.firstName);
@@ -40,11 +40,11 @@ let student = {
     let salary=4000;
     let bonus;
 
-if (salary<2000) {
+  if (salary<2000) {
     bonus = salary*10/100;
-} else{
+  } else{
     bonus=0;
-}
+ }
    console.log(bonus);
 
    /* 7. გამოაცხადეთ ცვლადი d, k და h. სადაც d = 23, k=d-ნახევარი, 
